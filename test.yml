@@ -3,23 +3,21 @@ age: 28
 address: "apartment 123"
 active: true
 key:
-    key: value
-    key2: 33
-    key3: 
-            key: another
-            key2: value2
-jsonObject: {key: value, key2: 33, key3: }
+  key: value
+  key2: 33
+  key3:
+    key: another
+    key2: value2
+jsonObject: { key: value, key2: 33, key3 }
 array:
-    -item1
+  - item1
     item2
-    - {key: value }
+  - { key: value }
 jsonArray: [item1, item2]
 objectsArray:
-    - key: value
-      key2: value2             
-    - key: value
-      key3: value3
-longText: > 
-    ihfddshfds dfhsfhfsdf adfksjhkfjhds aksdjhfkhf asdkfjhsdkjhf
-    khafksjhdfkdhsf asdkfjhsdkjhf
-
+  - key: value
+    key2: value2
+  - key: value
+    key3: value3
+longText: >
+  ihfddshfds dfhsfhfsdf adfksjhkfjhds aksdjhfkhf asdkfjhsdkjhf khafksjhdfkdhsf asdkfjhsdkjhf
